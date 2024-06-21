@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeMaster - Login</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+
+<body>
+    <header>
+        <h1>LifeMaster</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="auth">
+        <div class="auth-container">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LifeMaster. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
