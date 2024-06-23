@@ -194,7 +194,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to check answer
     function checkAnswer(question) {
-        const userAnswer = parseFloat(prompt('Enter your answer:')); // Use prompt for practice mode
         const correctAnswer = parseFloat(question.answer);
 
         if (userAnswer === correctAnswer) {

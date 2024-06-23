@@ -68,13 +68,13 @@ section h1 {
     font-size: 0.9rem;
     margin-right: 0.5rem;
     color: #fff;
-    background: #3498db;
+    background: #1abc9c;
     margin-bottom: 1.5rem;
     cursor: pointer;
 }
 
-.circle .active {
-    background: #1abc9c;
+.circle.active {
+    background: lightblue;
 }
 
 #timestamp {

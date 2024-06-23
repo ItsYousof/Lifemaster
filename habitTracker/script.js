@@ -22,6 +22,7 @@ function addHabit(name, times) {
     localStorage.setItem('habits', document.getElementById('habitsContainer').innerHTML);
 }
 
+
 function removeHabit(element) {
     element.parentElement.remove();
     localStorage.setItem('habits', document.getElementById('habitsContainer').innerHTML);
@@ -109,6 +110,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
             calendar.appendChild(dayCell);
         }
+
+        let circles = document.querySelectorAll('.circle');
+        circles.forEach(circle => {
+            circle.addEventListener('click', () => {
+                if (circle.classList.contains('active')) {
+                    circle.classList.remove('active');
+                } else {
+                    circle.classList.add('active');
+                    localStorage.setItem('habits', document.getElementById('habitsContainer').innerHTML);
+                }
+            });
+        })
     }
 
     generateCalendar(currentMonth, currentYear);

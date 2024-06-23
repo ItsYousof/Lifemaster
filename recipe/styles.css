@@ -90,6 +90,8 @@ body {
 .recipe h3 {
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 #ingredients {
@@ -118,4 +120,22 @@ body {
     cursor: pointer;
     margin-top: 0.5rem;
     text-align: center;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 10px 10px 0 0;
+    background: #333
+}
+
+.bottom-nav i {
+    margin: 1rem;
 }
