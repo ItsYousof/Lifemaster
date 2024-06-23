@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterLife - Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/828c19ed9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="features">
+        <h2 class="title">Dashboard</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Habit Tracker</h3>
+                <p>Daily, weekly, and monthly habit tracking with custom reminders and progress charts.</p>
+                <ul>
+                    <li>Set and track goals</li>
+                    <li>View progress charts and streaks</li>
+                </ul>
+                <button class="goBTN" onclick="window.location.href='habitTracker/index.html'"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Go</button>
+            </div>
+            <div class="feature">
+                <h3>Language Learning</h3>
+                <p>Flashcards, quizzes, pronunciation guides, and audio samples.</p>
+                <ul>
+                    <li>Build vocabulary with flashcards</li>
+                    <li>Practice with daily quizzes</li>
+                    <li>Improve pronunciation with audio samples</li>
+                </ul>
+                <button class="goBTN" onclick="window.location.href='langLearn/index.html'"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Go</button>
+            </div>
+            <div class="feature">
+                <h3>Recipe Finder</h3>
+                <p>Recipe database, with instructions, ingredients.</p>
+                <ul>
+                    <li>Find recipes based on dietary preferences</li>
+                    <li>View recipe details</li>
+                    <li>View instructions</li>
+                </ul>
+                <button class="goBTN" onclick="window.location.href='recipe/index.html'"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Go</button>
+            </div>
+            <div class="feature">
+                <h3>Reading & Book Finder</h3>
+                <p>Reading lists, personalized recommendations, and virtual book clubs.</p>
+                <ul>
+                    <li>Track your reading list</li>
+                    <li>Get personalized book recommendations</li>
+                    <li>Join virtual book clubs and discussions</li>
+                </ul>
+                <button class="goBTN" onclick="window.location.href='book/index.html'"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Go</button>
+            </div>
+            <div class="feature">
+                <h3>Math Learning for Kids</h3>
+                <p>Age-appropriate modules, quizzes, and progress reports.</p>
+                <ul>
+                    <li>Access learning modules for kids</li>
+                    <li>Engage with math quizzes and games</li>
+                    <li>View progress reports</li>
+                </ul>
+                <button class="goBTN" onclick="window.location.href='mathLearning/index.html'"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Go</button>
+            </div>
+            <div class="feature">
+                <h3>Travel Planner and Guide</h3>
+                <p>Itinerary builder, local attraction recommendations, and expense tracker.</p>
+                <ul>
+                    <li>Build your travel itinerary</li>
+                    <li>Find local attractions</li>
+                    <li>Track travel expenses</li>
+                </ul>
+                <button class="goBTN" onclick="window.location.href='travelerGuide/index.html'"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Go</button>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+                const authToken = sessionStorage.getItem('authToken');
+
+                if (!authToken) {
+                    // If there is no auth token, redirect to index.html
+                    window.location.href = 'index.html';
+                }
+            });
+
+    </script>
+    <footer>
+        <p>&copy; 2024 MasterLife. All rights reserved.</p>
+    </footer>
+</body>
+</html>

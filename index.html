@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterLife - Login</title>
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+
+<body>
+    <div class="titleContainer">
+        <h2 class="title">Login to MasterLife</h2>
+    </div>
+    <section id="auth">
+        <div class="auth-container">
+            <h2>Login</h2>
+            <form method="post" action="#">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required autocomplete="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required autocomplete="current-password">
+                </div>
+                <button type="submit" class="btn" id="loginBtn">Login</button>
+                <div class="remember">
+                    <input type="checkbox" name="remember" id="rememberCheckbox"> Remember me
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MasterLife. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

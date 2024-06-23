@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&wght@600&wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1abc9c;
+    --off-white: #f4f4f4;
+    --dark-gray: #333;
+
+    /* Fonts  */
+    --poppins: 'Poppins', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--poppins);
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    background: #ecf0f1;
+}
+
+h1 {
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+span {
+    color: gray;
+    font-size: small;
+    margin: 2rem;
+    margin-top: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.container input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    width: 80%;
+    font-family: Poppins;
+    font-size: 1rem;
+    outline: none;
+}
+
+.book-container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.book {
+    background: #fff;
+    color: #333;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.book img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.book button {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}

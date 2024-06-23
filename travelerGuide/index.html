@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Discover the World</h2>
+
+    <div class="beach-des">
+        <h3>Beaches</h3>
+        <div class="destination">
+            <div class="beach-image"></div>
+            <h4 onclick="showPopupDescription('Alexandria', 'https://images.unsplash.com/photo-1471922694854-ff1b63b20054?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">Alexandria</h4>
+        </div>
+        <div class="destination">
+            <img class="beach-image" src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+            <h4 onclick="showPopupDescription('San Diego', 'https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSXN9paAohkPkOeEHEqM0ZcRrmhplyTtEu5qXqFSwdYqO64FvtzOqJjJxPXSYjnxB3j')">San Diego</h4>
+        </div>
+        <div class="destination">
+            <img class="beach-image"
+                src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSXN9paAohkPkOeEHEqM0ZcRrmhplyTtEu5qXqFSwdYqO64FvtzOqJjJxPXSYjnxB3j"></img>
+            <h4 onclick="showPopupDescription('Anna Maria Island', 'https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcT4XcQVdLxJjzSf6q5FQq6h9J4hWQe2hP4wzVJW5hS5JXyZmJwJjJxPXSYjnxB3j')">Anna Maria Island</h4>
+        </div>
+    </div>
+
+    <div class="popuplar-des">
+        <h3>Popular Destinations</h3>
+        <div class="destination">
+            <img class="beach-image1" src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=3440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+            <h4 onclick="showPopupDescription('Paris', 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=3440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">Paris</h4>
+        </div>
+        <div class="destination">
+            <img class="beach-image1"
+                src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+            <h4 onclick="showPopupDescription('London', 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">London</h4>
+        </div>
+        <div class="destination">
+            <img class="beach-image1"
+                src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
+            <h4 onclick="showPopupDescription('Barcelona', 'https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">Barcelona</h4>
+        </div>
+    </div>
+
+    <div class="popup" style="margin-top: 1rem;">
+        <div class="nav">
+            <span onclick="closePopup()">Cancel</span>
+            <h3 style="color: #000;">About</h3>
+            <span onclick="closePopup()">Done</span>
+        </div>
+
+        <img src="" alt="" id="popup-img">
+
+        <div class="popup-content">
+            <h3 id="popup-title"></h3>
+            <p id="popup-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

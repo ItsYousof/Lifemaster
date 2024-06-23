@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Global Styles */
+:root {
+    --primary-color: #1abc9c;
+    --off-white: #f4f4f4;
+    --dark-gray: rgb(40, 28, 62);
+
+    /* Fonts  */
+    --poppins: 'Poppins', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--poppins);
+    font-size: 1rem;
+    line-height: 1.6;
+    background: var(--dark-gray);
+}
+
+h2 {
+    font-family: var(--poppins);
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: var(--poppins);
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.lang h3 {
+    margin-bottom: 1rem;
+}
+
+.lang p {
+    margin-bottom: 1rem;
+}
+
+.lang button {
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 80%;
+    font-family: Poppins;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,1220 @@
+{
+    "easy": [
+        {
+            "question": "What is 5 + 3?",
+            "choices": [
+                "5",
+                "8",
+                "10",
+                "15"
+            ],
+            "answer": "8"
+        },
+        {
+            "question": "What is 12 - 4?",
+            "choices": [
+                "8",
+                "10",
+                "6",
+                "7"
+            ],
+            "answer": "8"
+        },
+        {
+            "question": "What is 3 * 4?",
+            "choices": [
+                "7",
+                "10",
+                "12",
+                "15"
+            ],
+            "answer": "12"
+        },
+        {
+            "question": "What is 20 / 5?",
+            "choices": [
+                "2",
+                "4",
+                "5",
+                "6"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "What is 7 * 7?",
+            "choices": [
+                "49",
+                "56",
+                "63",
+                "70"
+            ],
+            "answer": "49"
+        },
+        {
+            "question": "What is 15 - 7?",
+            "choices": [
+                "5",
+                "7",
+                "8",
+                "10"
+            ],
+            "answer": "8"
+        },
+        {
+            "question": "What is 9 * 6?",
+            "choices": [
+                "54",
+                "56",
+                "58",
+                "60"
+            ],
+            "answer": "54"
+        },
+        {
+            "question": "What is 16 / 4?",
+            "choices": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "What is 10 + 10?",
+            "choices": [
+                "10",
+                "15",
+                "20",
+                "25"
+            ],
+            "answer": "20"
+        },
+        {
+            "question": "What is 18 - 9?",
+            "choices": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "answer": "9"
+        },
+        {
+            "question": "What is 2 * 9?",
+            "choices": [
+                "16",
+                "18",
+                "20",
+                "22"
+            ],
+            "answer": "18"
+        },
+        {
+            "question": "What is 24 / 4?",
+            "choices": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "answer": "6"
+        },
+        {
+            "question": "What is 12 + 6?",
+            "choices": [
+                "16",
+                "17",
+                "18",
+                "19"
+            ],
+            "answer": "18"
+        },
+        {
+            "question": "What is 15 - 4?",
+            "choices": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "answer": "11"
+        },
+        {
+            "question": "What is 5 * 5?",
+            "choices": [
+                "20",
+                "25",
+                "30",
+                "35"
+            ],
+            "answer": "25"
+        },
+        {
+            "question": "What is 30 / 6?",
+            "choices": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is 8 + 9?",
+            "choices": [
+                "15",
+                "16",
+                "17",
+                "18"
+            ],
+            "answer": "17"
+        },
+        {
+            "question": "What is 14 - 7?",
+            "choices": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is 4 * 8?",
+            "choices": [
+                "28",
+                "30",
+                "32",
+                "36"
+            ],
+            "answer": "32"
+        },
+        {
+            "question": "What is 40 / 5?",
+            "choices": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "answer": "8"
+        },
+        {
+            "question": "What is 11 + 12?",
+            "choices": [
+                "21",
+                "22",
+                "23",
+                "24"
+            ],
+            "answer": "23"
+        },
+        {
+            "question": "What is 25 - 13?",
+            "choices": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "answer": "12"
+        },
+        {
+            "question": "What is 6 * 7?",
+            "choices": [
+                "40",
+                "42",
+                "44",
+                "48"
+            ],
+            "answer": "42"
+        },
+        {
+            "question": "What is 48 / 8?",
+            "choices": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer": "6"
+        },
+        {
+            "question": "What is 14 + 8?",
+            "choices": [
+                "20",
+                "21",
+                "22",
+                "23"
+            ],
+            "answer": "22"
+        },
+        {
+            "question": "What is 18 - 5?",
+            "choices": [
+                "11",
+                "12",
+                "13",
+                "14"
+            ],
+            "answer": "13"
+        },
+        {
+            "question": "What is 9 * 9?",
+            "choices": [
+                "71",
+                "72",
+                "81",
+                "90"
+            ],
+            "answer": "81"
+        },
+        {
+            "question": "What is 63 / 7?",
+            "choices": [
+                "8",
+                "9",
+                "10",
+                "11"
+            ],
+            "answer": "9"
+        },
+        {
+            "question": "What is 7 + 10?",
+            "choices": [
+                "16",
+                "17",
+                "18",
+                "19"
+            ],
+            "answer": "17"
+        },
+        {
+            "question": "What is 20 - 6?",
+            "choices": [
+                "12",
+                "13",
+                "14",
+                "15"
+            ],
+            "answer": "14"
+        }
+    ],
+    "normal": [
+        {
+            "question": "What is 15 * 3?",
+            "choices": [
+                "40",
+                "45",
+                "50",
+                "55"
+            ],
+            "answer": "45"
+        },
+        {
+            "question": "What is 72 / 8?",
+            "choices": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "answer": "9"
+        },
+        {
+            "question": "What is 21 + 16?",
+            "choices": [
+                "35",
+                "36",
+                "37",
+                "38"
+            ],
+            "answer": "37"
+        },
+        {
+            "question": "What is 50 - 25?",
+            "choices": [
+                "20",
+                "25",
+                "30",
+                "35"
+            ],
+            "answer": "25"
+        },
+        {
+            "question": "What is 18 * 4?",
+            "choices": [
+                "60",
+                "70",
+                "72",
+                "80"
+            ],
+            "answer": "72"
+        },
+        {
+            "question": "What is 120 / 6?",
+            "choices": [
+                "15",
+                "18",
+                "20",
+                "24"
+            ],
+            "answer": "20"
+        },
+        {
+            "question": "What is 42 + 28?",
+            "choices": [
+                "65",
+                "70",
+                "75",
+                "80"
+            ],
+            "answer": "70"
+        },
+        {
+            "question": "What is 100 - 37?",
+            "choices": [
+                "53",
+                "63",
+                "73",
+                "83"
+            ],
+            "answer": "63"
+        },
+        {
+            "question": "What is 27 * 3?",
+            "choices": [
+                "75",
+                "81",
+                "84",
+                "90"
+            ],
+            "answer": "81"
+        },
+        {
+            "question": "What is 144 / 12?",
+            "choices": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "answer": "12"
+        },
+        {
+            "question": "What is 35 + 27?",
+            "choices": [
+                "57",
+                "62",
+                "67",
+                "72"
+            ],
+            "answer": "62"
+        },
+        {
+            "question": "What is 90 - 41?",
+            "choices": [
+                "43",
+                "44",
+                "45",
+                "46"
+            ],
+            "answer": "49"
+        },
+        {
+            "question": "What is 36 * 5?",
+            "choices": [
+                "160",
+                "170",
+                "175",
+                "180"
+            ],
+            "answer": "180"
+        },
+        {
+            "question": "What is 210 / 7?",
+            "choices": [
+                "28",
+                "30",
+                "35",
+                "40"
+            ],
+            "answer": "30"
+        },
+        {
+            "question": "What is 53 + 47?",
+            "choices": [
+                "95",
+                "97",
+                "99",
+                "101"
+            ],
+            "answer": "100"
+        },
+        {
+            "question": "What is 200 - 123?",
+            "choices": [
+                "67",
+                "77",
+                "87",
+                "97"
+            ],
+            "answer": "77"
+        },
+        {
+            "question": "What is 44 * 4?",
+            "choices": [
+                "160",
+                "170",
+                "180",
+                "190"
+            ],
+            "answer": "176"
+        },
+        {
+            "question": "What is 360 / 9?",
+            "choices": [
+                "36",
+                "40",
+                "45",
+                "50"
+            ],
+            "answer": "40"
+        },
+        {
+            "question": "What is 65 + 38?",
+            "choices": [
+                "93",
+                "97",
+                "101",
+                "105"
+            ],
+            "answer": "103"
+        },
+        {
+            "question": "What is 140 - 67?",
+            "choices": [
+                "63",
+                "64",
+                "65",
+                "66"
+            ],
+            "answer": "73"
+        },
+        {
+            "question": "What is 54 * 6?",
+            "choices": [
+                "308",
+                "312",
+                "316",
+                "320"
+            ],
+            "answer": "324"
+        },
+        {
+            "question": "What is 648 / 9?",
+            "choices": [
+                "68",
+                "70",
+                "72",
+                "74"
+            ],
+            "answer": "72"
+        },
+        {
+            "question": "What is 78 + 62?",
+            "choices": [
+                "130",
+                "138",
+                "142",
+                "150"
+            ],
+            "answer": "140"
+        },
+        {
+            "question": "What is 240 - 108?",
+            "choices": [
+                "120",
+                "122",
+                "132",
+                "140"
+            ],
+            "answer": "132"
+        },
+        {
+            "question": "What is 81 * 4?",
+            "choices": [
+                "310",
+                "324",
+                "328",
+                "332"
+            ],
+            "answer": "324"
+        },
+        {
+            "question": "What is 972 / 9?",
+            "choices": [
+                "104",
+                "108",
+                "112",
+                "116"
+            ],
+            "answer": "108"
+        },
+        {
+            "question": "What is 96 + 74?",
+            "choices": [
+                "160",
+                "168",
+                "172",
+                "176"
+            ],
+            "answer": "170"
+        },
+        {
+            "question": "What is 64 - 19?",
+            "choices": [
+                "40",
+                "45",
+                "50",
+                "55"
+            ],
+            "answer": "45"
+        },
+        {
+            "question": "What is 360 * 2?",
+            "choices": [
+                "680",
+                "720",
+                "740",
+                "780"
+            ],
+            "answer": "720"
+        },
+        {
+            "question": "What is 800 / 8?",
+            "choices": [
+                "95",
+                "100",
+                "105",
+                "110"
+            ],
+            "answer": "100"
+        },
+        {
+            "question": "What is 56 + 48?",
+            "choices": [
+                "100",
+                "104",
+                "108",
+                "112"
+            ],
+            "answer": "104"
+        },
+        {
+            "question": "What is 160 - 75?",
+            "choices": [
+                "75",
+                "80",
+                "85",
+                "90"
+            ],
+            "answer": "85"
+        },
+        {
+            "question": "What is 84 * 3?",
+            "choices": [
+                "240",
+                "252",
+                "264",
+                "276"
+            ],
+            "answer": "252"
+        },
+        {
+            "question": "What is 540 / 6?",
+            "choices": [
+                "85",
+                "90",
+                "95",
+                "100"
+            ],
+            "answer": "90"
+        },
+        {
+            "question": "What is 72 + 89?",
+            "choices": [
+                "151",
+                "160",
+                "169",
+                "178"
+            ],
+            "answer": "161"
+        },
+        {
+            "question": "What is 210 - 143?",
+            "choices": [
+                "57",
+                "67",
+                "77",
+                "87"
+            ],
+            "answer": "67"
+        },
+        {
+            "question": "What is 72 * 5?",
+            "choices": [
+                "350",
+                "360",
+                "370",
+                "380"
+            ],
+            "answer": "360"
+        }
+    ],
+    "hard": [
+        {
+            "question": "What is 225 + 189?",
+            "choices": [
+                "394",
+                "404",
+                "414",
+                "424"
+            ],
+            "answer": "414"
+        },
+        {
+            "question": "What is 576 / 8?",
+            "choices": [
+                "70",
+                "72",
+                "74",
+                "76"
+            ],
+            "answer": "72"
+        },
+        {
+            "question": "What is 145 + 186?",
+            "choices": [
+                "320",
+                "330",
+                "340",
+                "350"
+            ],
+            "answer": "331"
+        },
+        {
+            "question": "What is 615 - 318?",
+            "choices": [
+                "297",
+                "307",
+                "317",
+                "327"
+            ],
+            "answer": "297"
+        },
+        {
+            "question": "What is 489 * 3?",
+            "choices": [
+                "1467",
+                "1479",
+                "1491",
+                "1503"
+            ],
+            "answer": "1467"
+        },
+        {
+            "question": "What is 968 / 11?",
+            "choices": [
+                "86",
+                "87",
+                "88",
+                "89"
+            ],
+            "answer": "88"
+        },
+        {
+            "question": "What is 735 + 279?",
+            "choices": [
+                "1004",
+                "1014",
+                "1024",
+                "1034"
+            ],
+            "answer": "1014"
+        },
+        {
+            "question": "What is 1080 - 564?",
+            "choices": [
+                "506",
+                "516",
+                "526",
+                "536"
+            ],
+            "answer": "516"
+        },
+        {
+            "question": "What is 864 * 2?",
+            "choices": [
+                "1728",
+                "1748",
+                "1768",
+                "1788"
+            ],
+            "answer": "1728"
+        },
+        {
+            "question": "What is 2500 / 25?",
+            "choices": [
+                "96",
+                "98",
+                "100",
+                "102"
+            ],
+            "answer": "100"
+        },
+        {
+            "question": "What is 1456 + 879?",
+            "choices": [
+                "2255",
+                "2335",
+                "2415",
+                "2495"
+            ],
+            "answer": "2335"
+        },
+        {
+            "question": "What is 3150 - 2297?",
+            "choices": [
+                "853",
+                "857",
+                "861",
+                "865"
+            ],
+            "answer": "853"
+        },
+        {
+            "question": "What is 1743 * 3?",
+            "choices": [
+                "5229",
+                "5239",
+                "5249",
+                "5259"
+            ],
+            "answer": "5229"
+        },
+        {
+            "question": "What is 4932 / 18?",
+            "choices": [
+                "267",
+                "273",
+                "279",
+                "285"
+            ],
+            "answer": "274"
+        },
+        {
+            "question": "What is 987 + 1468?",
+            "choices": [
+                "2455",
+                "2475",
+                "2495",
+                "2515"
+            ],
+            "answer": "2455"
+        },
+        {
+            "question": "What is 5600 - 3789?",
+            "choices": [
+                "1811",
+                "1821",
+                "1831",
+                "1841"
+            ],
+            "answer": "1811"
+        },
+        {
+            "question": "What is 3289 * 2?",
+            "choices": [
+                "6578",
+                "6598",
+                "6618",
+                "6638"
+            ],
+            "answer": "6578"
+        },
+        {
+            "question": "What is 9200 / 40?",
+            "choices": [
+                "230",
+                "232",
+                "234",
+                "236"
+            ],
+            "answer": "230"
+        },
+        {
+            "question": "What is 5784 + 3947?",
+            "choices": [
+                "9631",
+                "9731",
+                "9831",
+                "9931"
+            ],
+            "answer": "9731"
+        },
+        {
+            "question": "What is 15420 - 10987?",
+            "choices": [
+                "4433",
+                "4533",
+                "4633",
+                "4733"
+            ],
+            "answer": "4433"
+        },
+        {
+            "question": "What is 19876 * 3?",
+            "choices": [
+                "59628",
+                "59728",
+                "59828",
+                "59928"
+            ],
+            "answer": "59628"
+        },
+        {
+            "question": "What is 45876 / 18?",
+            "choices": [
+                "2548",
+                "2568",
+                "2588",
+                "2608"
+            ],
+            "answer": "2548"
+        },
+        {
+            "question": "What is 56876 + 34987?",
+            "choices": [
+                "91863",
+                "92863",
+                "93863",
+                "94863"
+            ],
+            "answer": "91863"
+        },
+        {
+            "question": "What is 78562 - 39487?",
+            "choices": [
+                "39075",
+                "39175",
+                "39275",
+                "39375"
+            ],
+            "answer": "39075"
+        },
+        {
+            "question": "What is 154789 * 2?",
+            "choices": [
+                "309578",
+                "309778",
+                "309978",
+                "310178"
+            ],
+            "answer": "309578"
+        },
+        {
+            "question": "What is 876543 / 27?",
+            "choices": [
+                "32427",
+                "32457",
+                "32487",
+                "32517"
+            ],
+            "answer": "32427"
+        },
+        {
+            "question": "What is 258764 + 98765?",
+            "choices": [
+                "357529",
+                "358529",
+                "359529",
+                "360529"
+            ],
+            "answer": "357529"
+        },
+        {
+            "question": "What is 654321 - 123456?",
+            "choices": [
+                "530865",
+                "531865",
+                "532865",
+                "533865"
+            ],
+            "answer": "530865"
+        }
+    ],
+    "extreme": [
+        {
+            "question": "What is the 37th prime number?",
+            "choices": [
+                "151",
+                "157",
+                "163",
+                "167"
+            ],
+            "answer": "157"
+        },
+        {
+            "question": "What is the value of π (Pi) rounded to 10 decimal places?",
+            "choices": [
+                "3.1415926535",
+                "3.1415926540",
+                "3.1415926545",
+                "3.1415926550"
+            ],
+            "answer": "3.1415926535"
+        },
+        {
+            "question": "What is the cube root of 6859?",
+            "choices": [
+                "17",
+                "19",
+                "21",
+                "23"
+            ],
+            "answer": "19"
+        },
+        {
+            "question": "What is the value of e (Euler's number) rounded to 10 decimal places?",
+            "choices": [
+                "2.7182818284",
+                "2.7182818289",
+                "2.7182818294",
+                "2.7182818299"
+            ],
+            "answer": "2.7182818284"
+        },
+        {
+            "question": "What is the factorial of 7?",
+            "choices": [
+                "5040",
+                "5180",
+                "5320",
+                "5460"
+            ],
+            "answer": "5040"
+        },
+        {
+            "question": "What is the 15th Fibonacci number?",
+            "choices": [
+                "610",
+                "620",
+                "630",
+                "640"
+            ],
+            "answer": "610"
+        },
+        {
+            "question": "What is the sum of the first 20 terms of the arithmetic sequence where the first term is 5 and the common difference is 3?",
+            "choices": [
+                "1000",
+                "1050",
+                "1100",
+                "1150"
+            ],
+            "answer": "1100"
+        },
+        {
+            "question": "What is the value of √(9801)?",
+            "choices": [
+                "97",
+                "99",
+                "101",
+                "103"
+            ],
+            "answer": "99"
+        },
+        {
+            "question": "What is the sum of the interior angles of a regular hexagon?",
+            "choices": [
+                "600°",
+                "720°",
+                "840°",
+                "960°"
+            ],
+            "answer": "720°"
+        },
+        {
+            "question": "What is the volume of a sphere with radius 6 cm rounded to the nearest cubic centimeter?",
+            "choices": [
+                "904 cm³",
+                "972 cm³",
+                "1032 cm³",
+                "1100 cm³"
+            ],
+            "answer": "904 cm³"
+        },
+        {
+            "question": "What is the area of a regular hexagon with side length 8 cm rounded to the nearest square centimeter?",
+            "choices": [
+                "192 cm²",
+                "200 cm²",
+                "208 cm²",
+                "216 cm²"
+            ],
+            "answer": "192 cm²"
+        },
+        {
+            "question": "What is the value of 5^(3/2)?",
+            "choices": [
+                "11.18",
+                "11.36",
+                "11.54",
+                "11.72"
+            ],
+            "answer": "11.18"
+        },
+        {
+            "question": "What is the number of diagonals in a polygon with 15 sides?",
+            "choices": [
+                "75",
+                "90",
+                "105",
+                "120"
+            ],
+            "answer": "105"
+        },
+        {
+            "question": "What is the length of the hypotenuse of a right triangle with legs of lengths 5 cm and 12 cm?",
+            "choices": [
+                "13 cm",
+                "14 cm",
+                "15 cm",
+                "16 cm"
+            ],
+            "answer": "13 cm"
+        },
+        {
+            "question": "What is the value of log₂(32)?",
+            "choices": [
+                "4",
+                "4.5",
+                "5",
+                "5.5"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the perimeter of a rectangle with length 14 cm and width 8 cm?",
+            "choices": [
+                "36 cm",
+                "38 cm",
+                "40 cm",
+                "42 cm"
+            ],
+            "answer": "44 cm"
+        },
+        {
+            "question": "What is the value of sin(45°)?",
+            "choices": [
+                "0.5",
+                "√2/2",
+                "√3/2",
+                "1"
+            ],
+            "answer": "√2/2"
+        },
+        {
+            "question": "What is the sum of the first 50 positive odd numbers?",
+            "choices": [
+                "2500",
+                "2550",
+                "2600",
+                "2650"
+            ],
+            "answer": "2500"
+        },
+        {
+            "question": "What is the value of 7 choose 3 (binomial coefficient)?",
+            "choices": [
+                "35",
+                "42",
+                "49",
+                "56"
+            ],
+            "answer": "35"
+        },
+        {
+            "question": "What is the surface area of a cube with edge length 5 cm?",
+            "choices": [
+                "100 cm²",
+                "125 cm²",
+                "150 cm²",
+                "175 cm²"
+            ],
+            "answer": "150 cm²"
+        },
+        {
+            "question": "What is the value of 9^(3/2)?",
+            "choices": [
+                "24.75",
+                "26.25",
+                "27.75",
+                "29.25"
+            ],
+            "answer": "27.75"
+        },
+        {
+            "question": "What is the circumference of a circle with diameter 14 cm rounded to the nearest centimeter?",
+            "choices": [
+                "43 cm",
+                "44 cm",
+                "45 cm",
+                "46 cm"
+            ],
+            "answer": "44 cm"
+        },
+        {
+            "question": "What is the value of cos(60°)?",
+            "choices": [
+                "0.5",
+                "0.6",
+                "0.7",
+                "0.8"
+            ],
+            "answer": "0.5"
+        },
+        {
+            "question": "What is the sum of the squares of the first 10 positive integers?",
+            "choices": [
+                "285",
+                "315",
+                "345",
+                "375"
+            ],
+            "answer": "385"
+        },
+        {
+            "question": "What is the value of tan(30°)?",
+            "choices": [
+                "0.5",
+                "0.6",
+                "0.7",
+                "0.8"
+            ],
+            "answer": "0.577"
+        },
+        {
+            "question": "What is the value of 4^3?",
+            "choices": [
+                "56",
+                "60",
+                "64",
+                "68"
+            ],
+            "answer": "64"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "lessons": [
+        {
+            "id": 1,
+            "title": "Basic Phrases",
+            "questions": [
+                {
+                    "type": "matching",
+                    "question": "Match the words with their translations",
+                    "pairs": [
+                        {
+                            "word": "Hello",
+                            "match": "👋"
+                        },
+                        {
+                            "word": "Please",
+                            "match": "🙏"
+                        },
+                        {
+                            "word": "Goodbye",
+                            "match": "👋"
+                        }
+                    ]
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Translate: 'Adiós' into English",
+                    "options": [
+                        "Hello",
+                        "Goodbye",
+                        "Au revoir"
+                    ],
+                    "answer": "Goodbye"
+                },
+                {
+                    "type": "typing",
+                    "question": "Type the English word for 'Hola'",
+                    "answer": "Hello"
+                },
+                {
+                    "type": "matching",
+                    "question": "Match the words with their translations",
+                    "pairs": [
+                        {
+                            "word": "Hello",
+                            "match": "Hola"
+                        },
+                        {
+                            "word": "Goodbye",
+                            "match": "Adiós"
+                        },
+                        {
+                            "word": "Please",
+                            "match": "Por favor"
+                        }
+                    ]
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Translate: 'Hola' into English",
+                    "options": [
+                        "Hello",
+                        "Goodbye",
+                        "Please"
+                    ],
+                    "answer": "Hello"
+                },
+                {
+                    "type": "typing",
+                    "question": "Type the Spanish word for 'Adiós'",
+                    "answer": "Goodbye"
+                },
+                {
+                    "type": "typing",
+                    "question": "Type the Spanish word for 'Por favor'",
+                    "answer": "Please"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Asking Questions",
+            "questions": [
+                {
+                    "type": "multiple_choice",
+                    "question": "Translate: '¿Cuál es tu nombre?' into English",
+                    "options": [
+                        "What is your name?",
+                        "¿Cuál es tu nombre?",
+                        "Not here"
+                    ],
+                    "answer": "What is your name?"
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Translate: '¿Dónde está el ban' into English",
+                    "options": [
+                        "Where is the bathroom?",
+                        "¿Dónde está el lavabo?",
+                        "¿Dónde está el inodoro?"
+                    ],
+                    "answer": "Where is the bathroom?"
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Translate: '¿A qué hora es?' into English",
+                    "options": [
+                        "What is the time?",
+                        "¿A qué hora es la próxima hora?",
+                        "¿¿A qué hora es la próxima hora?"
+                    ],
+                    "answer": "What is the time?"
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Translate: '¿Cuál es el clima' into English",
+                    "options": [
+                        "¿Cuál es el clima?",
+                        "What is the Weather?",
+                        "¿Cuál es el clima mañana?"
+                    ],
+                    "answer": "What is the Weather?"
+                },
+                {
+                    "type": "typing",
+                    "question": "Translate: '¿Cual es tu color favorito?' into English",
+                    "answer": "What is your favorite color?"
+                }
+            ]
+        }
+    ]
+}

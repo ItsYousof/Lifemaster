@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterLife - Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/828c19ed9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <h1>Habits</h1>
+        <div id="habitsContainer"></div>
+        <div class="habitForm">
+            <a href="#" class="addHabit" onclick="openHabit()"> <i class="fa-solid fa-circle-plus"></i> Add habit</a>
+        </div>
+    </section>
+    <span class="line"></span>
+
+    <section>
+        <h1>Calender</h1>
+        <div id="calendar"></div>
+    </section>
+    <!-- Popup for new habit -->
+    <section id="habitPopup">
+        <div class="nav">
+            <span onclick="closeHabit()">Cancel</span>
+            <h2>New Habit</h2>
+            <span onclick="saveHabit()">Save</span>
+        </div>
+
+        <div class="habitForm" style="margin-top: 1rem;">
+            <div class="form-group">
+                <label for="name">Habit name</label>
+                <input type="text" id="name" name="name" placeholder="Habit name">
+            </div>
+            <div class="form-group">
+                <label for="times">Times per week</label>
+                <input type="number" id="times" name="times" min="1" max="7" placeholder="Times per week (1-7)">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

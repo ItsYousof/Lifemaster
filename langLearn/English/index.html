@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/828c19ed9a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Learn English</h1>
+    </header>
+
+    <main>
+        <section id="home" class="active">
+            <div class="container">
+                <h2>Welcome to Learn English</h2>
+                <p>Start your journey to fluency with our interactive lessons and exercises!</p>
+                <button onclick="showSection('lessons')">Start Lesson</button>
+            </div>
+        </section>
+
+        <section id="lessons">
+            <div class="container">
+                <h2>Lessons</h2>
+                <div id="lesson-list"></div>
+            </div>
+        </section>
+
+        <section id="profile">
+            <div class="container">
+                <h2>Your Profile</h2>
+                <p>Username: <span id="username">User</span></p>
+                <p>Progress: <span id="progress">0%</span></p>
+            </div>
+        </section>
+
+        <section id="lesson-detail">
+            <div class="container">
+                <h2 id="lesson-title"></h2>
+                <div id="questions-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i></a></li>
+                <li><a href="#lessons"><i class="fas fa-book"></i></a></li>
+                <li><a href="#profile"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

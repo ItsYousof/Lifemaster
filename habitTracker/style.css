@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root {
+    --primary-color: #1abc9c;
+    --off-white: #f4f4f4;
+    --dark-gray: #333;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #ecf0f1;
+    overflow: hidden;
+}
+
+
+section h1 {
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    margin-bottom: 1rem;
+}
+
+.habitForm a{
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1rem;
+    font-family: Poppins;
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.habit {
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.habit p {
+    font-size: 1rem;
+    font-family: Poppins;
+}
+
+.week {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.circle {
+    width: 2.9rem;
+    height: 2.9rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3rem;
+    font-family: Poppins;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    color: #fff;
+    background: #3498db;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.circle .active {
+    background: #1abc9c;
+}
+
+#timestamp {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-family: Poppins;
+    display: inline-block;
+    color: #3498db;
+}
+
+.btn {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: Poppins;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+#habitPopup {
+    display: none;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed;
+    top: 70%;
+    z-index: 1;
+}
+
+#habitPopup.show {
+    display: block;
+    animation: comeFromBottom 0.5s ease-out;
+}
+
+#habitPopup .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #333;
+    font-size: 0.9rem;
+    font-family: Poppins;
+}
+
+.habitForm {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+}
+
+.habitForm input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Poppins;
+    width: 100%;
+    outline: none;
+}
+#habitPopup.hide {
+    animation: goToBottom 0.5s ease-out forwards;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #333;
+    margin: 0.5rem 0;
+    display: block;
+    margin-bottom: 0;
+}
+
+/* Animations */
+@keyframes comeFromBottom {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes goToBottom {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(100%);
+    }
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.day:hover {
+    background-color: #f2f2f2;
+}
+
+.today {
+    background-color: #3498db;
+}
+
+.custom-day {
+    background-color: #1abc9cad;
+    color: #fff;
+}
