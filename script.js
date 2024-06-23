@@ -1,31 +1,20 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const loginBtn = document.getElementById('loginBtn');
+function checkLogin() {
+    // Get username and password from the form
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
 
-    loginBtn.onclick = () => {
-        // Get username and password from the form
-        const username = document.getElementById('username').value;
-        const password = document.getElementById('password').value;
+    if (username == "demo" && password == "admin") {
+        sessionStorage.setItem('authToken', Math.random().toString(36).substring(7));
+        location.href = 'dashboard.html'; // Redirect to dashboard on successful login
+    } else {
+        loginBtn.style.background = "red";
+        loginBtn.innerText = "Invalid Username or Password";
 
-        // Fetch the JSON file using the proxy service
-        fetch("https://api.allorigins.win/get?url=https://codebentodev.w3spaces.com/logins.json")
-            .then(response => response.json())
-            .then(data => {
-                // The response data is wrapped in a contents property
-                const logins = JSON.parse(data.contents);
+        setTimeout(() => {
+            loginBtn.style.background = "#1abc9c";
+            loginBtn.innerText = "Login";
+        }, 2000);
 
-                // Check if the entered username and password match any entry in the JSON data
-                const user = logins.find(user => user.username === username && user.password === password);
-
-                if (user) {
-                    sessionStorage.setItem('authToken', Math.random().toString(36).substring(7));
-                    location.href = 'dashboard.html'; // Redirect to dashboard on successful login
-                } else {
-                    alert('Invalid username or password');
-                }
-            })
-            .catch(error => {
-                console.error('Error fetching JSON:', error);
-                alert('An error occurred. Please try again later.');
-            });
-    };
-});
+        return false;
+    }
+}
