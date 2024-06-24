@@ -120,6 +120,7 @@ body {
 }
 
 footer {
+    display: none;
     background-color: #2c3e50;
     color: white;
     text-align: center;
@@ -130,3 +131,111 @@ footer {
 footer p {
     margin: 0;
 }
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 10px 10px 0 0;
+    background: #333
+}
+
+.bottom-nav i {
+    margin: 1rem;
+}
+
+.bottom-nav i:hover {
+    color: #3498db;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.settings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;  
+    padding: 2rem;
+}
+
+.setting {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: var(--montserrat);
+}
+
+.setting:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.setting h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.setting p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.setting button {
+    padding: 15px;
+    border: none;
+    text-align: center;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(90deg, #2980b9, #3498db);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.setting button:hover {
+    background: transparent;
+    border: 1px solid #3498db;
+    color: #3498db;
+}
+
+.setting input {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1rem;
+    font-family: var(--montserrat);
+}
+
+.setting input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.setting input::placeholder {
+    color: #ccc;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .settings {
+        grid-template-columns: 1fr;
+    }
+}
+

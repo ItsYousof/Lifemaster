@@ -12,7 +12,7 @@
 <body>
     <section id="features">
         <h2 class="title">Dashboard</h2>
-        <div class="feature-list">
+        <div class="feature-list" id="feature-list">
             <div class="feature">
                 <h3>Habit Tracker</h3>
                 <p>Daily, weekly, and monthly habit tracking with custom reminders and progress charts.</p>
@@ -73,6 +73,27 @@
                 <button class="goBTN" onclick="window.location.href='travelerGuide/index.html'"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Go</button>
             </div>
         </div>
+        <div class="settings" id="settings" style="display: none;">
+            <div class="setting">
+                <h3>Logout</h3>
+                <button>Logout</button>
+                <p>Are you sure you want to logout?</p>
+            </div>
+            <div class="setting">
+                <h3>Notifications</h3>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <button>Enable</button>
+                <p>Get an email when there is a new update or event.</p>
+            </div>
+            <div class="setting">
+                <h3>About MasterLife</h3>
+                <p>MasterLife provides various apps for your convenience. We reserve the right to modify or remove these apps at any time. By using MasterLife, you agree to our terms and conditions.</p>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <i class="fa-solid fa-house" class="active" onclick="showMainContainer()"></i>
+            <i class="fa-solid fa-gear" onclick="showSettings()"></i> 
+        </div>
     </section>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -83,6 +104,16 @@
                     window.location.href = 'index.html';
                 }
             });
+
+        function showMainContainer() {
+            document.getElementById('feature-list').style.display = 'grid';
+            document.getElementById('settings').style.display = 'none';
+        }
+
+        function showSettings() {
+            document.getElementById('feature-list').style.display = 'none';
+            document.getElementById('settings').style.display = 'grid';
+        }
 
     </script>
     <footer>
